@@ -1,0 +1,35 @@
+<div id = "Issue">
+  <div class="container">
+      <form [formGroup]="form" (ngSubmit)=" onSubmit()">
+      <div class="row">
+        <div class="col-25">
+          <label>Issue Title</label>
+        </div>
+        <div class="col-75">
+          <input formControlName="title" type="text"  placeholder="Enter issue title">
+        </div>
+      </div>
+          
+      <div class="row">
+        <div class="col-25">
+          <label>Description of Issue</label>
+        </div>
+        <div class="col-75">
+          <textarea formControlName="description" placeholder="Enter description of issue" style="height:140px"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <input class="btn" type="submit" value="Add Issue">
+      </div>
+    </form>    
+
+         <!-- write logic to display message if form is submitted-->
+      <div class="alert" >
+      
+      </div>
+  </div>
+</div>
+  
+  
+  

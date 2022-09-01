@@ -1,0 +1,14 @@
+{
+  "issues": [
+    {
+      "title": "Dependencies issue in pom.xml",
+      "description": "Remove redundant dependencies in pom.xml",
+      "id": 1
+    },
+    {
+      "title": "Issue in Controller",
+      "description": "Use appropriate annotation for Controller class",
+      "id": 2
+    }
+  ]
+}
